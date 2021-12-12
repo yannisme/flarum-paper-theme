@@ -1,0 +1,58 @@
+{
+    "name": "yannisme/papertheme",
+    "description": "Single-column Blog Style For Flarum",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "*"
+    },
+    "require-dev": {
+        "flarum/testing": "*"
+    },
+    "authors": [
+        {
+            "name": "yannis",
+            "email": "rd@yannis.cn",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yannisme\\Papertheme\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yannisme\\Papertheme\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Paper",
+            "category": "theme",
+            "icon": {
+                "name": "fab fa-yandex-international",
+                "backgroundColor": "#efa836",
+                "color": "#FFF"
+            }
+        }
+    },
+    "scripts": {
+        "test": [
+            "@test:unit",
+            "@test:integration"
+        ],
+        "test:unit": "phpunit -c tests/phpunit.unit.xml",
+        "test:integration": "phpunit -c tests/phpunit.integration.xml",
+        "test:setup": "@php tests/integration/setup.php"
+    },
+    "scripts-descriptions": {
+        "test": "Runs all tests.",
+        "test:unit": "Runs all unit tests.",
+        "test:integration": "Runs all integration tests.",
+        "test:setup": "Sets up a database for use with integration tests. Execute this only once."
+    }
+}
