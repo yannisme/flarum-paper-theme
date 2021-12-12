@@ -1,27 +1,34 @@
-# Paper
+![GitHub](https://img.shields.io/github/license/yannisme/flarum-paper-theme?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/yannisme/flarum-paper-theme?style=flat-square) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/yannisme/flarum-paper-theme?style=flat-square) ![Packagist Downloads](https://img.shields.io/packagist/dt/yannisme/papertheme?style=flat-square) [![buy me a coffee](https://img.shields.io/badge/donate-buy%20me%20a%20coffee-yellow?label=Donate&style=flat-square)](https://paypal.me/toyannis?country.x=C2&locale.x=zh_XC)
 
-![License](https://img.shields.io/badge/license-CC-BY-2.5-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/yannisme/papertheme.svg)](https://packagist.org/packages/yannisme/papertheme) [![Total Downloads](https://img.shields.io/packagist/dt/yannisme/papertheme.svg)](https://packagist.org/packages/yannisme/papertheme)
+A Flarum Theme. Paper theme
+Single-column Blog Style For Flarum, Compatible with Night Mode. 
 
-A [Flarum](http://flarum.org) extension. just a themem
+There may be some bugs. If you find it, please remind me, and I will fix it in time!
 
-## Installation
+
+
+### Demo
+
+[click2see](https://yannisme.com/)
+
+### Installation
+**Default color：**`#4D698E`
 
 Install with composer:
-
 ```sh
-composer require yannisme/papertheme:"*"
+composer require yannisme/papertheme
 ```
 
-## Updating
+### Updating
 
 ```sh
-composer update yannisme/papertheme:"*"
-php flarum migrate
+composer update yannisme/papertheme
 php flarum cache:clear
 ```
 
-## Links
+### Links
 
+- [Github](https://github.com/yannisme/flarum-paper-theme)
 - [Packagist](https://packagist.org/packages/yannisme/papertheme)
-- [GitHub](https://github.com/yannisme/papertheme)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [Discuss](https://discuss.yannisme.com/d/32-paper)
+  
