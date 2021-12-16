@@ -15,14 +15,14 @@ p{font-size:18px;font-weight:200}
 h3.DiscussionListItem-title{font-weight:500;font-size:1.125rem;line-height:1.4}
 legend{font-size:20px}
 .Hero h2{font-size:175%}
+b,strong{font-weight:600}
+.CantSeePastFirstPost{max-width:770px;margin:0;background:unset!important}
 .DiscussionHero .TagsLabel .TagLabel{font-size:16px!important;font-weight:200}
 .containerNarrow i.icon{display:block;font-size:110%}
 .Post-body blockquote{background:#fff2ae;border:0;color:#ad6c00}
 .Post-body code{background:#484848;color:#f7f7f7;padding:1px 5px;margin:0 4px}
 .Post-body pre{font-size:120%;font-weight:200;padding:5px;background:fade(@hero-bg,98.5%);color:#3b4a61;border-radius:0;overflow-wrap:break-word;border-left:3px solid #45556e}
 .DiscussionPage article li{font-size:17px}
-.sideNav{white-space:nowrap!important;overflow:auto!important;-webkit-overflow-scrolling:touch!important}
-.sideNav .Dropdown-menu>li,.sideNav>ul>li{display:inline-block;margin:0 20px 0 0;vertical-align:top}
 .sideNav,.sideNav>ul{width:auto}
 .DiscussionListItem-content{padding:unset}
 .DiscussionListItem{border-bottom:1px solid fade(@hero-bg,98.5%)}
@@ -34,7 +34,6 @@ legend{font-size:20px}
 .sideNavContainer{display:flex;flex-direction:column;max-width:770px}
 .Post{padding:0!important}
 .CommentPost:not(.Post--hidden),.ReplyPlaceholder{max-width:810px}
-.affix .App-header{position:fixed!important}
 .CommentPost,.ReplyPlaceholder{padding:20px!important}
 .PostStream-timeGap{max-width:770px;padding:10px;text-align:center}
 nav.IndexPage-nav.sideNav{width:100%}
@@ -72,10 +71,8 @@ aside.Post-actions{top:-12px;left:-10px}
 .CommentPost,.ReplyPlaceholder{padding:unset!important}
 }
 @media(min-width:1099px) and (max-width: 1250px) {
-.hasPane.panePinned .App-content, .hasPane.panePinned .App-footer {
-    position: absolute;
-    right: 7px;
-}}
+.hasPane.panePinned .App-content,.hasPane.panePinned .App-footer{position:absolute;right:7px}
+}
 @media(min-width:768px) and (max-width: 1099px) {
 .DiscussionPage-nav>ul{display:none}
 }
@@ -88,6 +85,9 @@ aside.Post-actions{top:-12px;left:-10px}
 .DiscussionListItem-count,.IndexPage .DiscussionListItem-badges .Badge,.UserPage .DiscussionListItem-badges .Badge{display:none!important}
 }
 @media @desktop-up{
+.sideNav{white-space:nowrap!important;overflow:auto!important;-webkit-overflow-scrolling:touch!important}
+.affix .App-header{position:fixed!important}
+.sideNav .Dropdown-menu>li,.sideNav>ul>li{display:inline-block;margin:0 20px 0 0;vertical-align:top}
 .AfruxWidgets-sideNavAlt{padding:20px 10px}
 .DiscussionPage-nav>ul{margin-left:-100px}
 .DiscussionPage-nav,.DiscussionPage-nav>ul{width:120px}
@@ -95,4 +95,7 @@ aside.Post-actions{top:-12px;left:-10px}
 .PostStream-item:not(:last-child){width:770px}
 .IndexPage-nav .item-newDiscussion{margin-bottom:10px;margin-left:-18px}
 .sideNav:after{content:" ";position:absolute;left:0;right:0;width:800px;margin:0 auto;border-bottom:1px solid fade(@hero-bg,98.5%)}
+}
+@media @phone{
+h3.DiscussionListItem-title{font-size:1.5rem}
 }
