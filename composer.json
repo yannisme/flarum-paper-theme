@@ -7,7 +7,8 @@
     "type": "flarum-extension",
     "license": "MIT",
     "require": {
-        "flarum/core": "*"
+        "flarum/core": "*",
+        "yannisme/flarum-ext-acgembed": "*"
     },
     "require-dev": {
         "flarum/testing": "*"
