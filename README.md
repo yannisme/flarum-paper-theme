@@ -3,6 +3,7 @@
 A Flarum Theme. Single-column Blog Style, Compatible with Night Mode. Blog extensions are no longer supported！
 
 There may be has some bugs. If you find it, please submit it, I'll fix it as best I can.
+    
 
 To support media extensions such as Netease Music, please use `Flarum acgembed` of original author `LCinHK`.
 
@@ -41,8 +42,6 @@ composer remove yannisme/papertheme
 - [Github](https://github.com/yannisme/flarum-paper-theme)
 - [Packagist](https://packagist.org/packages/yannisme/papertheme)
 - [Discuss](https://discuss.yannisme.com/d/32-paper)
-
-
 
 ![](https://s2.loli.net/2021/12/12/WFyAfx7Nsknit8w.jpg)
 ![](https://s2.loli.net/2021/12/12/3JbDgaRBCsYMWTe.jpg)
