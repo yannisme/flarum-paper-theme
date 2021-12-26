@@ -28,6 +28,10 @@ nav.@{ipg}-nav.@{sN}{width:100%}
 .AfruxWidgets-Widget-content{width:auto!important;margin:0 auto!important}
 .CantSeePastFirstPost{max-width:770px;margin:0;background:unset!important}
 .containerNarrow i.icon{display:block;font-size:110%}
+.TagTiles{display:grid;grid-template-columns:repeat(1,auto)}
+.TagTiles>li{width:auto!important;border-radius:4px;float:left;margin:5px}
+.TagTile-info .icon{font-size:2em;float:right!important}
+.TagTile-name{font-size:2em!important}
 .Post{padding:0!important}
 .Post-body{
 blockquote{background:#fff2ae;border:0;color:#ad6c00}
@@ -110,4 +114,12 @@ li.item-terminalPost{display:none}
 }
 @media @phone{
 h3.@{disL}-title{font-size:1.5rem}
+h3.DiscussionListItem-title{font-size:1.3rem!important}
+.DiscussionListItem-info{
+.TagLabel,.username{font-weight:500}
+}
+.DiscussionListItem-info>.item-tags {
+margin-right:4px;opacity:1;position:absolute;right:0;display:flex;align-content:center;align-items:center;
+i.icon{display:none}
+}
 }
